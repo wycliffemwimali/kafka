@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RequestMapping("api/v1/messages")
 public class MessageController {
-private final KafkaProducer kafkaProducer;
+    private final KafkaProducer kafkaProducer;
     private final KafkaJsonProducer kafkaJsonProducer;
 
     @PostMapping

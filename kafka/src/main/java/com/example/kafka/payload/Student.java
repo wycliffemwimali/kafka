@@ -2,6 +2,7 @@ package com.example.kafka.payload;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
