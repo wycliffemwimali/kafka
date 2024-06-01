@@ -17,6 +17,7 @@ public class KafkaJsonProducer {
                 .withPayload(student)
                 .setHeader(KafkaHeaders.TOPIC, "wycliffe")
                 .build();
+        kafkaTemplate.send(message);
     }
 
 }
